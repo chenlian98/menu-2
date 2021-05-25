@@ -1,0 +1,24 @@
+nav {
+    width: 1000px;
+    margin: 30px auto 0;
+    display: flex;
+}
+nav .box {
+    position: relative;
+}
+nav a {
+    padding-right: 30px;
+    color: #151313;
+    font-size: 30px;
+}
+nav .box ul {
+    display: none;
+    background-color: #cbcaca;
+}
+nav .box ul li{
+    border: 1px dotted #889979;
+    cursor: pointer;
+}
+nav .box ul li:hover {
+    background-color: #f3de9c;
+}
